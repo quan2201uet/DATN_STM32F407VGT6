@@ -1,0 +1,6 @@
+[submodule "Src/Driver"]
+	path = Src/Driver
+	url = https://github.com/quan2201uet/myDriver.git
+[submodule "Src/Module/Device_driver"]
+	path = Src/Module/Device_driver
+	url = https://github.com/quan2201uet/DATN_Device_Drivers.git

@@ -1,0 +1,10 @@
+E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:20:8:i2cAbstract::i2cAbstract()	16	static
+E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:25:8:i2cAbstract::~i2cAbstract()	16	static
+E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:25:8:virtual i2cAbstract::~i2cAbstract()	16	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:3:1:i2cSTM32::i2cSTM32(I2C_HandleTypeDef*)	16	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:8:1:i2cSTM32::~i2cSTM32()	16	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:8:1:virtual i2cSTM32::~i2cSTM32()	16	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:13:6:virtual void i2cSTM32::sendData(uint16_t, uint8_t*, uint64_t)	32	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:17:6:virtual void i2cSTM32::receiveData(uint16_t, uint8_t*, uint64_t)	32	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:22:6:virtual void i2cSTM32::sendDataDMA(uint16_t, uint8_t*, uint64_t)	24	static
+../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:26:6:virtual void i2cSTM32::receiveDataDMA(uint16_t, uint8_t*, uint64_t)	24	static
