@@ -1,7 +1,6 @@
-Src/Module/Device_driver/MPU/mpu6050.o: \
- ../Src/Module/Device_driver/MPU/mpu6050.cpp \
- ../Src/Module/Device_driver/MPU/MPU6050.h \
- E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h \
+Src/Module/Device_driver/Magnetometer/qmc5883l.o: \
+ ../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp \
+ ../Src/Module/Device_driver/Magnetometer/qmc5883l.h \
  E:/ProjectDATN/Src/Application/Inc/common.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
@@ -50,9 +49,9 @@ Src/Module/Device_driver/MPU/mpu6050.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
-../Src/Module/Device_driver/MPU/MPU6050.h:
-E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h
+../Src/Module/Device_driver/Magnetometer/qmc5883l.h:
 E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -103,3 +102,4 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:

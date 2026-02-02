@@ -50,4 +50,5 @@ Src/Driver/DriverSTM32/Src \
 Src/Include/common \
 Src/Module/Device_driver/GPS \
 Src/Module/Device_driver/MPU \
+Src/Module/Device_driver/Magnetometer \
 

@@ -58,3 +58,4 @@
 "./Src/Include/common/common.o"
 "./Src/Module/Device_driver/GPS/gpsDevice.o"
 "./Src/Module/Device_driver/MPU/mpu6050.o"
+"./Src/Module/Device_driver/Magnetometer/qmc5883l.o"

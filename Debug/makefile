@@ -9,6 +9,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Src/Module/Device_driver/Magnetometer/subdir.mk
 -include Src/Module/Device_driver/MPU/subdir.mk
 -include Src/Module/Device_driver/GPS/subdir.mk
 -include Src/Include/common/subdir.mk

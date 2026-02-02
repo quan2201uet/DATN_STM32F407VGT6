@@ -10,6 +10,9 @@
 #include "queue.h"
 #include "semphr.h"
 #include "event_groups.h"
+
+#include <stdio.h>
+#include <stdint.h>
 /* USER CODE END Includes */
 
 /* USING QUEUESET BEGIN*/
@@ -141,6 +144,24 @@ typedef struct GPRMC{
     float course;           // Hướng di chuyển (độ)
     int day, month, year;   // Ngày tháng năm (UTC)
 } GPRMC_Data_t;
+
+// qmc5883l raw data
+typedef struct
+{
+	int16_t mx_raw;
+	int16_t my_raw;
+	int16_t mz_raw;
+
+	int16_t mx_offset;
+	int16_t my_offset;
+	int16_t mz_offset;
+
+	float my_scale;
+	float mz_scale;
+
+	int16_t qmc_calib[6];
+
+} qmc5883l_raw_t;
 /* USER CODE END Struct */
 
 

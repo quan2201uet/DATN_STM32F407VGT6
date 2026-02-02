@@ -5446,6 +5446,11 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .text          0x00000000        0x0 ./Src/Application/Src/readGPSTask.o
  .data          0x00000000        0x0 ./Src/Application/Src/readGPSTask.o
  .bss           0x00000000        0x0 ./Src/Application/Src/readGPSTask.o
@@ -5473,7 +5478,7 @@ Discarded input sections
                 0x00000000       0x60 ./Src/Application/Src/readGPSTask.o
  .debug_rnglists
                 0x00000000       0x43 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000      0x41a ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000      0x454 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x2a7 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x2e ./Src/Application/Src/readGPSTask.o
@@ -5534,7 +5539,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x2a ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x43 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x34 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x3c ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x38c ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x4a ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x34 ./Src/Application/Src/readGPSTask.o
@@ -5543,8 +5551,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x8e ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x185 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000       0x10 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000       0x3c ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000      0x138 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x20 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readGPSTask.o
@@ -5555,12 +5565,17 @@ Discarded input sections
  .debug_macro   0x00000000       0x29 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x1c ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0xde ./Src/Application/Src/readGPSTask.o
- .debug_line    0x00000000      0xe65 ./Src/Application/Src/readGPSTask.o
- .debug_str     0x00000000    0xd4f2b ./Src/Application/Src/readGPSTask.o
+ .debug_line    0x00000000      0xe87 ./Src/Application/Src/readGPSTask.o
+ .debug_str     0x00000000    0xd54f8 ./Src/Application/Src/readGPSTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readGPSTask.o
  .debug_frame   0x00000000      0x16c ./Src/Application/Src/readGPSTask.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
@@ -5670,7 +5685,7 @@ Discarded input sections
                 0x00000000       0x60 ./Src/Application/Src/readIMUTask.o
  .debug_rnglists
                 0x00000000       0x43 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x419 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x44d ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
@@ -5752,9 +5767,14 @@ Discarded input sections
  .debug_macro   0x00000000       0x8d ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x7e ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x19 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_line    0x00000000     0x100e ./Src/Application/Src/readIMUTask.o
- .debug_str     0x00000000    0xd6194 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x138 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
+ .debug_line    0x00000000     0x1030 ./Src/Application/Src/readIMUTask.o
+ .debug_str     0x00000000    0xd6761 ./Src/Application/Src/readIMUTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readIMUTask.o
  .debug_frame   0x00000000      0x16c ./Src/Application/Src/readIMUTask.o
  .ARM.attributes
@@ -6262,6 +6282,53 @@ Discarded input sections
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/GPS/gpsDevice.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Module/Device_driver/GPS/gpsDevice.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
@@ -6935,13 +7002,13 @@ Discarded input sections
                 0x00000000       0xc0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605017setGyroDivideModeENS_16GYRO_DIVIDE_MODEE
                 0x00000000       0xc8 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_info    0x00000000     0x1b3a ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_abbrev  0x00000000      0x305 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_info    0x00000000     0x1b8e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_abbrev  0x00000000      0x326 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_aranges
                 0x00000000       0x50 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_rnglists
                 0x00000000       0x3b ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_macro   0x00000000      0x159 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x3b0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0xbb0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x22 ./Src/Module/Device_driver/MPU/mpu6050.o
@@ -6950,14 +7017,61 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x6a ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0x1df ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x2a7 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x2e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x2f ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x22 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xfb ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000     0x1011 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x11f ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000    0x15ea5 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x6d ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000     0x3693 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x197 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x5c ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x980 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x9e9 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x115 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x13e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xa5 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x174 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x287 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x5f ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x236 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x12c ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x21e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x2e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x1b5 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xd6 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x127 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x7e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x89 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x868 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x1d5 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x8ed ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x4d ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x2aa ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x12d ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xf1 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x15a ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xde ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x26 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x4fd ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xb5 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0xaa ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x91 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x8d ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x7e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x19 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x61 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x2a ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x43 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x34 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_macro   0x00000000       0x9e ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x3c ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0x38c ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_macro   0x00000000      0x119 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x4a ./Src/Module/Device_driver/MPU/mpu6050.o
@@ -6970,12 +7084,216 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0x138 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_line    0x00000000      0x7b3 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_str     0x00000000     0xa187 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_line    0x00000000      0xc9c ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_str     0x00000000    0xd57f3 ./Src/Module/Device_driver/MPU/mpu6050.o
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_frame   0x00000000      0x124 ./Src/Module/Device_driver/MPU/mpu6050.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text          0x00000000        0x0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .data          0x00000000        0x0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .bss           0x00000000        0x0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL24QMC5883L_DEFAULT_ADDRESS
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_X_LSB_OUT
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_X_MSB_OUT
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_Y_LSB_OUT
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_Y_MSB_OUT
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_Z_LSB_OUT
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_Z_MSB_OUT
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL19QMC5883L_STATUS_REG
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL17QMC5883L_TEMP_LOW
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL18QMC5883L_TEMP_HIGH
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL22QMC5883L_CONTROL_REG_1
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL22QMC5883L_CONTROL_REG_2
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL19QMC5883L_PERIOD_REG
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .rodata._ZL15QMC5883L_ID_REG
+                0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text._ZN8qmc5883lC2EP11I2CAbstract
+                0x00000000       0x26 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text._ZN8qmc5883lD2Ev
+                0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text._ZN8qmc5883l4initEv
+                0x00000000       0xaa ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text._ZN8qmc5883l9calibrateEPt
+                0x00000000       0x18 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text._ZN8qmc5883l11readRawDataEPt
+                0x00000000       0x96 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_info    0x00000000      0x6e5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_abbrev  0x00000000      0x2f0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_aranges
+                0x00000000       0x40 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_rnglists
+                0x00000000       0x2d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x3b0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0xbb0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x2a7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x2e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x2f ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x22 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x8e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x51 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x103 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x6a ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x1df ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x22 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xfb ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000     0x1011 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x11f ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000    0x15ea5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x6d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000     0x3693 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x197 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x5c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x980 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x9e9 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x115 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x13e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xa5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x174 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x287 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x5f ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x236 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x12c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x21e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x2e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x1b5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xd6 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x127 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x7e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x89 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x868 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x1d5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x8ed ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x4d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x2aa ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x12d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xf1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x15a ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xde ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x26 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x4fd ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xb5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0xaa ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x91 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x8d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x7e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x19 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x61 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x2a ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x43 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x34 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x3c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x38c ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x4a ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x34 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x58 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x8e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x185 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x138 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_line    0x00000000      0xbbb ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_str     0x00000000    0xd38c4 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .comment       0x00000000       0x44 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_frame   0x00000000       0xd8 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .ARM.attributes
+                0x00000000       0x34 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .text          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_ops.o)
  .data          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_ops.o)
  .bss           0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_ops.o)
@@ -7309,6 +7627,7 @@ LOAD ./Src/Driver/DriverSTM32/Src/uartSTM32.o
 LOAD ./Src/Include/common/common.o
 LOAD ./Src/Module/Device_driver/GPS/gpsDevice.o
 LOAD ./Src/Module/Device_driver/MPU/mpu6050.o
+LOAD ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
 START GROUP
 LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
 LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libsupc++_nano.a
