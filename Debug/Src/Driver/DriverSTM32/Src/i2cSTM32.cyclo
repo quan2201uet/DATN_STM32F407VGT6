@@ -1,10 +1,12 @@
-E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:20:8:i2cAbstract::i2cAbstract()	1
-E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:25:8:i2cAbstract::~i2cAbstract()	1
-E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:25:8:virtual i2cAbstract::~i2cAbstract()	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:3:1:i2cSTM32::i2cSTM32(I2C_HandleTypeDef*)	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:8:1:i2cSTM32::~i2cSTM32()	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:8:1:virtual i2cSTM32::~i2cSTM32()	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:13:6:virtual void i2cSTM32::sendData(uint16_t, uint8_t*, uint64_t)	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:17:6:virtual void i2cSTM32::receiveData(uint16_t, uint8_t*, uint64_t)	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:22:6:virtual void i2cSTM32::sendDataDMA(uint16_t, uint8_t*, uint64_t)	1
-../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp:26:6:virtual void i2cSTM32::receiveDataDMA(uint16_t, uint8_t*, uint64_t)	1
+E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:23:8:I2CAbstract::I2CAbstract()	1
+E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:28:8:I2CAbstract::~I2CAbstract()	1
+E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:28:8:virtual I2CAbstract::~I2CAbstract()	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:3:1:I2CSTM32::I2CSTM32(I2C_HandleTypeDef*)	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:8:1:I2CSTM32::~I2CSTM32()	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:8:1:virtual I2CSTM32::~I2CSTM32()	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:13:6:virtual void I2CSTM32::sendData(uint16_t, uint8_t*, uint64_t)	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:17:6:virtual void I2CSTM32::receiveData(uint16_t, uint8_t*, uint64_t)	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:22:6:virtual void I2CSTM32::sendDataDMA(uint16_t, uint8_t*, uint64_t)	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:26:6:virtual void I2CSTM32::receiveDataDMA(uint16_t, uint8_t*, uint64_t)	1
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:31:6:virtual bool I2CSTM32::writeDataMem(uint8_t, uint8_t, const uint8_t*, uint16_t)	4
+../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp:42:6:virtual bool I2CSTM32::readDataMem(uint8_t, uint8_t, uint8_t*, uint16_t)	4

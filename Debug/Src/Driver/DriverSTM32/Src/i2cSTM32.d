@@ -1,7 +1,7 @@
-Src/Driver/DriverSTM32/Src/i2cSTM32.o: \
- ../Src/Driver/DriverSTM32/Src/i2cSTM32.cpp \
- E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/i2cSTM32.h \
- E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h \
+Src/Driver/DriverSTM32/Src/I2CSTM32.o: \
+ ../Src/Driver/DriverSTM32/Src/I2CSTM32.cpp \
+ E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/I2CSTM32.h \
+ E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -34,8 +34,8 @@ Src/Driver/DriverSTM32/Src/i2cSTM32.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/i2cSTM32.h:
-E:/ProjectDATN/Src/Driver/DriverAbstract/i2cAbstract.h:
+E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/I2CSTM32.h:
+E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:

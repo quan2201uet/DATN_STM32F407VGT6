@@ -42,6 +42,7 @@ Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
 Src/Driver/DriverSTM32/Src \
+Src/Include/common \
 Src/Module/Device_driver/GPS \
 Src/Module/Device_driver/MPU \
 
