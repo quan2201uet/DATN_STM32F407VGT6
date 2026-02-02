@@ -1,0 +1,5 @@
+../Src/Application/Src/readPressTask.cpp:4:1:readBME280Task::readBME280Task()	1
+../Src/Application/Src/readPressTask.cpp:6:6:void readBME280Task::init()	1
+../Src/Application/Src/readPressTask.cpp:11:6:void readBME280Task::startTask()	1
+../Src/Application/Src/readPressTask.cpp:22:6:void readBME280Task::processTask(QueueSetMemberHandle_t)	2
+../Src/Application/Src/readPressTask.cpp:40:6:void readBME280Task::readData()	1

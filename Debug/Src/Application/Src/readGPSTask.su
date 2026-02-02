@@ -1,0 +1,9 @@
+../Src/Application/Src/readGPSTask.cpp:3:1:GPSDataAnalysisTask::GPSDataAnalysisTask()	16	static
+../Src/Application/Src/readGPSTask.cpp:8:6:void GPSDataAnalysisTask::init()	16	static
+../Src/Application/Src/readGPSTask.cpp:13:6:void GPSDataAnalysisTask::startTask()	24	static
+../Src/Application/Src/readGPSTask.cpp:24:6:void GPSDataAnalysisTask::processTask(QueueSetMemberHandle_t)	16	static
+../Src/Application/Src/readGPSTask.cpp:43:6:void GPSDataAnalysisTask::readData()	16	static
+../Src/Application/Src/readGPSTask.cpp:48:6:void GPSDataAnalysisTask::parseGPGGA(char*, GPS_data_t*)	24	static
+../Src/Application/Src/readGPSTask.cpp:53:6:void GPSDataAnalysisTask::parseGNRMC(char*, GPS_data_t*)	24	static
+../Src/Application/Src/readGPSTask.cpp:58:7:float GPSDataAnalysisTask::convertToDecimal(char*)	16	static
+../Src/Application/Src/readGPSTask.cpp:63:6:void GPSDataAnalysisTask::pushCharFromISR(uint8_t)	16	static
