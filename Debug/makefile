@@ -13,6 +13,7 @@ RM := rm -rf
 -include Src/Module/Device_driver/GPS/subdir.mk
 -include Src/Include/common/subdir.mk
 -include Src/Driver/DriverSTM32/Src/subdir.mk
+-include Src/Application/Src/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
