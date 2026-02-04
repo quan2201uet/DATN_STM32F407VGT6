@@ -2,29 +2,20 @@
 #define INC_IMUTASK_H_
 
 #include "common.h"
-#define ADD 0xD0
-#define RTD 57.2957
-extern I2C_HandleTypeDef hi2c2;
+#include "mpu6050.h"
 
 
 class readRawDataIMUTask
 {
 private:
-	IMU_data_t _IMU_data;
-	uint32_t last_time = 0;
-	float dt = 0;
-
+	IMU_raw_data_t _IMU_raw_data;
 	void readData(void);
 	void processTask(QueueSetMemberHandle_t activeMember);
-	void MPU6050ReadG(void);
-	void MPU6050ReadA();
-	void MPU6050ReadAll();
-	void filter();
-
+	MPU6050* mIMUInstance;
 public:
-	readRawDataIMUTask();
+	readRawDataIMUTask(MPU6050* newIMU);
 
-	void init(void);
+	bool init(void);
 	void startTask();
 };
 

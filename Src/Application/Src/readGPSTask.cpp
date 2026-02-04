@@ -12,30 +12,17 @@ void GPSDataAnalysisTask::init(void)
 
 void GPSDataAnalysisTask::startTask()
 {
-	QueueSetMemberHandle_t activeMember;
 	for(;;)
 	{
-		activeMember = xQueueSelectFromSet(GPSTaskQueueSet, 10);
-		processTask(activeMember);
 
 	}
 }
 
 void GPSDataAnalysisTask::processTask(QueueSetMemberHandle_t activeMember)
 {
-	if (activeMember == semaGPSTask)
+	if (activeMember == semaGCSTask)
 	{
-		xSemaphoreTake(semaGPSTask, 10);
-
 		readData();
-		if (xQueueSend(QueueGPSToLora, &_GPS_data, 100) == pdPASS)
-		{
-
-		}
-		if (xQueueSend(QueueGPSToMicroSD, &_GPS_data, 100) == pdPASS)
-		{
-
-		}
 	}
 
 }

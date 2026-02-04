@@ -48,7 +48,10 @@ Src/Application/Src/readIMUTask.o: ../Src/Application/Src/readIMUTask.cpp \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ E:/ProjectDATN/Src/Module/Device_driver/MPU/mpu6050.h \
+ E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h \
+ E:/ProjectDATN/Src/Application/Inc/common.h
 E:/ProjectDATN/Src/Application/Inc/readIMUTask.h:
 E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Core/Inc/main.h:
@@ -100,3 +103,6 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+E:/ProjectDATN/Src/Module/Device_driver/MPU/mpu6050.h:
+E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:
+E:/ProjectDATN/Src/Application/Inc/common.h:

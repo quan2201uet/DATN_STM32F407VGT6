@@ -1,11 +1,21 @@
-#include <math.h>
-#include <readIMUTask.h>
-readRawDataIMUTask::readRawDataIMUTask(){}
+
+#include "readIMUTask.h"
+
+readRawDataIMUTask::readRawDataIMUTask(MPU6050* newIMU)
+{
+	mIMUInstance = newIMU;
+}
 
 
-void readRawDataIMUTask :: init(void)
+bool readRawDataIMUTask :: init(void)
 {
 
+	if(mIMUInstance->initDevice() != true)
+	{
+		return false;
+	}
+
+	return true;
 }
 
 void readRawDataIMUTask::startTask ()
@@ -13,7 +23,7 @@ void readRawDataIMUTask::startTask ()
 	QueueSetMemberHandle_t activeMember;
 	for(;;)
 	{
-		activeMember = xQueueSelectFromSet(IMUTaskQueueSet, 10);
+		activeMember = xQueueSelectFromSet(semaReadIMUTask, 10);
 		processTask(activeMember);
 	}
 }
@@ -21,43 +31,19 @@ void readRawDataIMUTask::startTask ()
 
 void readRawDataIMUTask::processTask(QueueSetMemberHandle_t activeMember)
 {
-	if(activeMember == semaIMUTask)
+	if(activeMember == semaReadIMUTask)
 	{
-		xSemaphoreTake(semaIMUTask,10);
+		xSemaphoreTake(semaReadIMUTask,10);
 		readData();
-		if(xQueueSend(QueueIMUToLora, &_IMU_data, 10) == pdPASS)
-		{
+//		if(xQueueSend(QueueIMUToLora, &_IMU_raw_data, 10) == pdPASS);
 
-		}
 
-		if(xQueueSend(QueueIMUToMicroSD, &_IMU_data, 10) == pdPASS)
-		{
-
-		}
 	}
 }
-void readRawDataIMUTask::MPU6050ReadAll()
-{
 
-}
+
 void readRawDataIMUTask::readData(void)
 {
-
-}
-
-
-void readRawDataIMUTask::MPU6050ReadG()
-{
-
-}
-
-void readRawDataIMUTask::MPU6050ReadA()
-{
-
-}
-
-void readRawDataIMUTask::filter()
-{
-
+	mIMUInstance->getRawData(&_IMU_raw_data);
 }
 

@@ -1,5 +1,5 @@
 ../Src/Application/Src/readPressTask.cpp:4:1:readBME280Task::readBME280Task()	16	static
 ../Src/Application/Src/readPressTask.cpp:6:6:void readBME280Task::init()	16	static
-../Src/Application/Src/readPressTask.cpp:11:6:void readBME280Task::startTask()	24	static
-../Src/Application/Src/readPressTask.cpp:22:6:void readBME280Task::processTask(QueueSetMemberHandle_t)	16	static
-../Src/Application/Src/readPressTask.cpp:40:6:void readBME280Task::readData()	16	static
+../Src/Application/Src/readPressTask.cpp:11:6:void readBME280Task::startTask()	16	static
+../Src/Application/Src/readPressTask.cpp:21:6:void readBME280Task::processTask(QueueSetMemberHandle_t)	16	static
+../Src/Application/Src/readPressTask.cpp:27:6:void readBME280Task::readData()	16	static

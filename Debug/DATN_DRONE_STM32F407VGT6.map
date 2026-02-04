@@ -5321,18 +5321,263 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/PIDTask.o
  .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
+ .group         0x00000000        0xc ./Src/Application/Src/common.o
  .text          0x00000000        0x0 ./Src/Application/Src/common.o
  .data          0x00000000        0x0 ./Src/Application/Src/common.o
  .bss           0x00000000        0x0 ./Src/Application/Src/common.o
- .debug_info    0x00000000       0x22 ./Src/Application/Src/common.o
- .debug_abbrev  0x00000000       0x12 ./Src/Application/Src/common.o
+ .rodata._ZL26IMU_TASK_TIMER_COUNTER_MAX
+                0x00000000        0x2 ./Src/Application/Src/common.o
+ .rodata._ZL26BME_TASK_TIMER_COUNTER_MAX
+                0x00000000        0x2 ./Src/Application/Src/common.o
+ .rodata._ZL27LORA_TASK_TIMER_COUNTER_MAX
+                0x00000000        0x2 ./Src/Application/Src/common.o
+ .rodata._ZL27PM25_TASK_TIMER_COUNTER_MAX
+                0x00000000        0x2 ./Src/Application/Src/common.o
+ .bss.EKFTaskQueueSet
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.memoryTaskQueueSet
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.GCSTaskQueueSet
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.PIDTaskQueueSet
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.FLTaskQueueSet
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaReadGPSIMUTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaReadIMUTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaReadMagTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaReadPreTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semareadBatTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaEKFTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaGCSTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaFLTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaPIDTask
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.semaMemoryTak
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueGPSToMemory
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueGPSToEKF
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueIMUToMemory
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueIMUToEKF
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueMagToMemory
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueMagToEKF
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queuePreToMemory
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queuePreToEKF
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueBatToMemory
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueBatToPID
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueEKFToGCS
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueEKFToPID
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queuePIDToGCS
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueGCSToFL
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueISRRCToFL
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .bss.queueFLToPID
+                0x00000000        0x4 ./Src/Application/Src/common.o
+ .text._Z8initTaskv
+                0x00000000      0x388 ./Src/Application/Src/common.o
+ .debug_info    0x00000000     0x19b8 ./Src/Application/Src/common.o
+ .debug_abbrev  0x00000000      0x1d8 ./Src/Application/Src/common.o
  .debug_aranges
-                0x00000000       0x18 ./Src/Application/Src/common.o
- .debug_macro   0x00000000       0x11 ./Src/Application/Src/common.o
+                0x00000000       0x20 ./Src/Application/Src/common.o
+ .debug_rnglists
+                0x00000000       0x14 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x450 ./Src/Application/Src/common.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/common.o
- .debug_line    0x00000000       0x42 ./Src/Application/Src/common.o
- .debug_str     0x00000000     0x327e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x2a7 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x2e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x2f ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x22 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x51 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x103 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x6a ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x1df ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x22 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xfb ./Src/Application/Src/common.o
+ .debug_macro   0x00000000     0x1011 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x11f ./Src/Application/Src/common.o
+ .debug_macro   0x00000000    0x15ea5 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x6d ./Src/Application/Src/common.o
+ .debug_macro   0x00000000     0x3693 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x197 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x5c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x980 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x9e9 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x115 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x13e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xa5 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x174 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x287 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x5f ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x236 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x12c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x21e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x2e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x1b5 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xd6 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x127 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x7e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x89 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x868 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x1d5 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x8ed ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x4d ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x2aa ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x12d ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xf1 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x15a ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xde ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x26 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x4fd ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xb5 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0xaa ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x91 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x8d ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x7e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x19 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x61 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x2a ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x43 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x34 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x3c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x38c ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x4a ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x34 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x58 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x185 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x138 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x409 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x18 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x194 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x29 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/common.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/common.o
+ .debug_line    0x00000000     0x108d ./Src/Application/Src/common.o
+ .debug_str     0x00000000    0xd6880 ./Src/Application/Src/common.o
  .comment       0x00000000       0x44 ./Src/Application/Src/common.o
+ .debug_frame   0x00000000       0x2c ./Src/Application/Src/common.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/common.o
  .group         0x00000000        0xc ./Src/Application/Src/flightControlTask.o
@@ -5451,6 +5696,9 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .text          0x00000000        0x0 ./Src/Application/Src/readGPSTask.o
  .data          0x00000000        0x0 ./Src/Application/Src/readGPSTask.o
  .bss           0x00000000        0x0 ./Src/Application/Src/readGPSTask.o
@@ -5459,9 +5707,9 @@ Discarded input sections
  .text._ZN19GPSDataAnalysisTask4initEv
                 0x00000000       0x14 ./Src/Application/Src/readGPSTask.o
  .text._ZN19GPSDataAnalysisTask9startTaskEv
-                0x00000000       0x28 ./Src/Application/Src/readGPSTask.o
+                0x00000000        0xc ./Src/Application/Src/readGPSTask.o
  .text._ZN19GPSDataAnalysisTask11processTaskEP15QueueDefinition
-                0x00000000       0x60 ./Src/Application/Src/readGPSTask.o
+                0x00000000       0x28 ./Src/Application/Src/readGPSTask.o
  .text._ZN19GPSDataAnalysisTask8readDataEv
                 0x00000000       0x14 ./Src/Application/Src/readGPSTask.o
  .text._ZN19GPSDataAnalysisTask10parseGPGGAEPcP10GPS_data_t
@@ -5472,13 +5720,13 @@ Discarded input sections
                 0x00000000       0x20 ./Src/Application/Src/readGPSTask.o
  .text._ZN19GPSDataAnalysisTask15pushCharFromISREh
                 0x00000000       0x18 ./Src/Application/Src/readGPSTask.o
- .debug_info    0x00000000      0xc0c ./Src/Application/Src/readGPSTask.o
- .debug_abbrev  0x00000000      0x306 ./Src/Application/Src/readGPSTask.o
+ .debug_info    0x00000000     0x1fdd ./Src/Application/Src/readGPSTask.o
+ .debug_abbrev  0x00000000      0x32a ./Src/Application/Src/readGPSTask.o
  .debug_aranges
                 0x00000000       0x60 ./Src/Application/Src/readGPSTask.o
  .debug_rnglists
                 0x00000000       0x43 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000      0x454 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000      0x49d ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x2a7 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x2e ./Src/Application/Src/readGPSTask.o
@@ -5554,24 +5802,26 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x138 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000       0x20 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000      0x409 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x18 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000      0x194 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
  .debug_macro   0x00000000       0x29 ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000       0x1c ./Src/Application/Src/readGPSTask.o
- .debug_macro   0x00000000       0xde ./Src/Application/Src/readGPSTask.o
- .debug_line    0x00000000      0xe87 ./Src/Application/Src/readGPSTask.o
- .debug_str     0x00000000    0xd54f8 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0x20 ./Src/Application/Src/readGPSTask.o
+ .debug_macro   0x00000000       0xf0 ./Src/Application/Src/readGPSTask.o
+ .debug_line    0x00000000     0x105f ./Src/Application/Src/readGPSTask.o
+ .debug_str     0x00000000    0xd692c ./Src/Application/Src/readGPSTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readGPSTask.o
- .debug_frame   0x00000000      0x16c ./Src/Application/Src/readGPSTask.o
+ .debug_frame   0x00000000      0x168 ./Src/Application/Src/readGPSTask.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/readGPSTask.o
- .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readIMUTask.o
@@ -5661,65 +5911,31 @@ Discarded input sections
  .text          0x00000000        0x0 ./Src/Application/Src/readIMUTask.o
  .data          0x00000000        0x0 ./Src/Application/Src/readIMUTask.o
  .bss           0x00000000        0x0 ./Src/Application/Src/readIMUTask.o
- .text._ZN18readRawDataIMUTaskC2Ev
-                0x00000000       0x24 ./Src/Application/Src/readIMUTask.o
+ .text._ZN18readRawDataIMUTaskC2EP7MPU6050
+                0x00000000       0x1e ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask4initEv
-                0x00000000       0x14 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x30 ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask9startTaskEv
                 0x00000000       0x28 ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask11processTaskEP15QueueDefinition
-                0x00000000       0x60 ./Src/Application/Src/readIMUTask.o
- .text._ZN18readRawDataIMUTask14MPU6050ReadAllEv
-                0x00000000       0x14 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask8readDataEv
-                0x00000000       0x14 ./Src/Application/Src/readIMUTask.o
- .text._ZN18readRawDataIMUTask12MPU6050ReadGEv
-                0x00000000       0x14 ./Src/Application/Src/readIMUTask.o
- .text._ZN18readRawDataIMUTask12MPU6050ReadAEv
-                0x00000000       0x14 ./Src/Application/Src/readIMUTask.o
- .text._ZN18readRawDataIMUTask6filterEv
-                0x00000000       0x14 ./Src/Application/Src/readIMUTask.o
- .debug_info    0x00000000     0x1886 ./Src/Application/Src/readIMUTask.o
- .debug_abbrev  0x00000000      0x291 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x1e ./Src/Application/Src/readIMUTask.o
+ .debug_info    0x00000000     0x1b1a ./Src/Application/Src/readIMUTask.o
+ .debug_abbrev  0x00000000      0x38e ./Src/Application/Src/readIMUTask.o
  .debug_aranges
-                0x00000000       0x60 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x40 ./Src/Application/Src/readIMUTask.o
  .debug_rnglists
-                0x00000000       0x43 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x44d ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x2b ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x472 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x409 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x18 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x22 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x5b ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x2a ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x94 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x43 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x197 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x57 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x38c ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x4a ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x58 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x8e ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x185 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x194 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x3c ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x29 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x2a7 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x2e ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x2f ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x1c ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x22 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x51 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x103 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x6a ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x1df ./Src/Application/Src/readIMUTask.o
@@ -5731,7 +5947,8 @@ Discarded input sections
  .debug_macro   0x00000000    0x15ea5 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x6d ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000     0x3693 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x56 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x197 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x5c ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x980 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x9e9 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x115 ./Src/Application/Src/readIMUTask.o
@@ -5767,16 +5984,40 @@ Discarded input sections
  .debug_macro   0x00000000       0x8d ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x7e ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x19 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x1c ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x61 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x2a ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x43 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x3c ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x38c ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_macro   0x00000000       0x1c ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x4a ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x58 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x185 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x138 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
- .debug_line    0x00000000     0x1030 ./Src/Application/Src/readIMUTask.o
- .debug_str     0x00000000    0xd6761 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x409 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x18 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x194 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x29 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readIMUTask.o
+ .debug_line    0x00000000     0x106d ./Src/Application/Src/readIMUTask.o
+ .debug_str     0x00000000    0xd6a66 ./Src/Application/Src/readIMUTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readIMUTask.o
- .debug_frame   0x00000000      0x16c ./Src/Application/Src/readIMUTask.o
+ .debug_frame   0x00000000       0xc4 ./Src/Application/Src/readIMUTask.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
@@ -5869,6 +6110,17 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
  .text          0x00000000        0x0 ./Src/Application/Src/readPressTask.o
  .data          0x00000000        0x0 ./Src/Application/Src/readPressTask.o
  .bss           0x00000000        0x0 ./Src/Application/Src/readPressTask.o
@@ -5877,18 +6129,18 @@ Discarded input sections
  .text._ZN14readBME280Task4initEv
                 0x00000000       0x14 ./Src/Application/Src/readPressTask.o
  .text._ZN14readBME280Task9startTaskEv
-                0x00000000       0x28 ./Src/Application/Src/readPressTask.o
+                0x00000000        0xc ./Src/Application/Src/readPressTask.o
  .text._ZN14readBME280Task11processTaskEP15QueueDefinition
-                0x00000000       0x34 ./Src/Application/Src/readPressTask.o
+                0x00000000       0x18 ./Src/Application/Src/readPressTask.o
  .text._ZN14readBME280Task8readDataEv
                 0x00000000       0x14 ./Src/Application/Src/readPressTask.o
- .debug_info    0x00000000      0x2c7 ./Src/Application/Src/readPressTask.o
- .debug_abbrev  0x00000000      0x1a3 ./Src/Application/Src/readPressTask.o
+ .debug_info    0x00000000     0x1631 ./Src/Application/Src/readPressTask.o
+ .debug_abbrev  0x00000000      0x229 ./Src/Application/Src/readPressTask.o
  .debug_aranges
                 0x00000000       0x40 ./Src/Application/Src/readPressTask.o
  .debug_rnglists
                 0x00000000       0x2b ./Src/Application/Src/readPressTask.o
- .debug_macro   0x00000000      0x3a6 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000      0x45a ./Src/Application/Src/readPressTask.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/readPressTask.o
  .debug_macro   0x00000000      0x2a7 ./Src/Application/Src/readPressTask.o
  .debug_macro   0x00000000       0x2e ./Src/Application/Src/readPressTask.o
@@ -5964,10 +6216,21 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readPressTask.o
  .debug_macro   0x00000000       0x16 ./Src/Application/Src/readPressTask.o
  .debug_macro   0x00000000      0x138 ./Src/Application/Src/readPressTask.o
- .debug_line    0x00000000      0xad5 ./Src/Application/Src/readPressTask.o
- .debug_str     0x00000000    0xd34e7 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000      0x409 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x18 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000      0x194 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x29 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readPressTask.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readPressTask.o
+ .debug_line    0x00000000      0xfc2 ./Src/Application/Src/readPressTask.o
+ .debug_str     0x00000000    0xd656c ./Src/Application/Src/readPressTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readPressTask.o
- .debug_frame   0x00000000       0xcc ./Src/Application/Src/readPressTask.o
+ .debug_frame   0x00000000       0xc8 ./Src/Application/Src/readPressTask.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/readPressTask.o
  .group         0x00000000        0xc ./Src/Driver/DriverSTM32/Src/I2CSTM32.o
@@ -6282,6 +6545,17 @@ Discarded input sections
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/GPS/gpsDevice.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Module/Device_driver/GPS/gpsDevice.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/MPU/mpu6050.o
@@ -6996,19 +7270,19 @@ Discarded input sections
                 0x00000000       0x2c ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605010initDeviceEv
                 0x00000000       0xf4 ./Src/Module/Device_driver/MPU/mpu6050.o
- .text._ZN7MPU605010getRawDataEPf
-                0x00000000      0x160 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .text._ZN7MPU605010getRawDataEP14IMU_raw_data_t
+                0x00000000      0x154 ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605018setAccelDivideModeENS_17ACCEL_DIVIDE_MODEE
                 0x00000000       0xc0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605017setGyroDivideModeENS_16GYRO_DIVIDE_MODEE
                 0x00000000       0xc8 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_info    0x00000000     0x1b8e ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_abbrev  0x00000000      0x326 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_info    0x00000000     0x3063 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_abbrev  0x00000000      0x420 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_aranges
                 0x00000000       0x50 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_rnglists
                 0x00000000       0x3b ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_macro   0x00000000      0x3b0 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x464 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0xbb0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x22 ./Src/Module/Device_driver/MPU/mpu6050.o
@@ -7084,12 +7358,34 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0x138 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_line    0x00000000      0xc9c ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_str     0x00000000    0xd57f3 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x1f2 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x409 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x18 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x194 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x29 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_line    0x00000000     0x118c ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_str     0x00000000    0xd8997 ./Src/Module/Device_driver/MPU/mpu6050.o
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_frame   0x00000000      0x124 ./Src/Module/Device_driver/MPU/mpu6050.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
@@ -7206,13 +7502,13 @@ Discarded input sections
                 0x00000000       0x18 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .text._ZN8qmc5883l11readRawDataEPt
                 0x00000000       0x96 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_info    0x00000000      0x6e5 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_abbrev  0x00000000      0x2f0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_info    0x00000000     0x1b52 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_abbrev  0x00000000      0x3c7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_aranges
                 0x00000000       0x40 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_rnglists
                 0x00000000       0x2d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_macro   0x00000000      0x3b0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x464 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0xbb0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0x2a7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000       0x2e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
@@ -7288,8 +7584,19 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0x138 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_line    0x00000000      0xbbb ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_str     0x00000000    0xd38c4 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x1f2 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x409 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x18 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x194 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x29 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_line    0x00000000     0x10bd ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_str     0x00000000    0xd6a34 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_frame   0x00000000       0xd8 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .ARM.attributes
