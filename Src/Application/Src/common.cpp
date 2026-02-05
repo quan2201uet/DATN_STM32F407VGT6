@@ -150,7 +150,5 @@ void initTask()
 	/* ADD SEMAPHORE AND QUEUE INTO FL QUEUE SET END */
 }
 
-
-
 /* USING FUNCTION END*/
 

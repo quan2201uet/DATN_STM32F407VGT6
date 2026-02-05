@@ -10,7 +10,8 @@ class readRawDataIMUTask
 private:
 	IMU_raw_data_t _IMU_raw_data;
 	void readData(void);
-	void processTask(QueueSetMemberHandle_t activeMember);
+	void sendData();
+	void processTask();
 	MPU6050* mIMUInstance;
 public:
 	readRawDataIMUTask(MPU6050* newIMU);

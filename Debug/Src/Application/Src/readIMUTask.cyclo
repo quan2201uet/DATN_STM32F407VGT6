@@ -1,5 +1,6 @@
 ../Src/Application/Src/readIMUTask.cpp:4:1:readRawDataIMUTask::readRawDataIMUTask(MPU6050*)	1
 ../Src/Application/Src/readIMUTask.cpp:10:6:bool readRawDataIMUTask::init()	2
 ../Src/Application/Src/readIMUTask.cpp:21:6:void readRawDataIMUTask::startTask()	1
-../Src/Application/Src/readIMUTask.cpp:32:6:void readRawDataIMUTask::processTask(QueueSetMemberHandle_t)	2
-../Src/Application/Src/readIMUTask.cpp:45:6:void readRawDataIMUTask::readData()	1
+../Src/Application/Src/readIMUTask.cpp:30:6:void readRawDataIMUTask::processTask()	2
+../Src/Application/Src/readIMUTask.cpp:39:6:void readRawDataIMUTask::readData()	1
+../Src/Application/Src/readIMUTask.cpp:44:6:void readRawDataIMUTask::sendData()	1

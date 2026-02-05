@@ -20,24 +20,19 @@ bool readRawDataIMUTask :: init(void)
 
 void readRawDataIMUTask::startTask ()
 {
-	QueueSetMemberHandle_t activeMember;
 	for(;;)
 	{
-		activeMember = xQueueSelectFromSet(semaReadIMUTask, 10);
-		processTask(activeMember);
+		processTask();
 	}
 }
 
 
-void readRawDataIMUTask::processTask(QueueSetMemberHandle_t activeMember)
+void readRawDataIMUTask::processTask()
 {
-	if(activeMember == semaReadIMUTask)
+	if(xSemaphoreTake(semaReadIMUTask,portMAX_DELAY) == pdTRUE)
 	{
-		xSemaphoreTake(semaReadIMUTask,10);
 		readData();
-//		if(xQueueSend(QueueIMUToLora, &_IMU_raw_data, 10) == pdPASS);
-
-
+		sendData();
 	}
 }
 
@@ -45,5 +40,11 @@ void readRawDataIMUTask::processTask(QueueSetMemberHandle_t activeMember)
 void readRawDataIMUTask::readData(void)
 {
 	mIMUInstance->getRawData(&_IMU_raw_data);
+}
+
+void readRawDataIMUTask::sendData()
+{
+	xQueueSend(queueIMUToEKF, &_IMU_raw_data, 10);
+	xQueueSend(queueIMUToMemory, &_IMU_raw_data, 10);
 }
 
