@@ -8,7 +8,7 @@
 class readRawDataIMUTask
 {
 private:
-	IMU_raw_data_t _IMU_raw_data;
+	IMU_data_t _IMU_data;
 	void readData(void);
 	void sendData();
 	void processTask();

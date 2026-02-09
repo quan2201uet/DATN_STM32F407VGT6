@@ -14,6 +14,7 @@ bool readRawDataIMUTask :: init(void)
 	{
 		return false;
 	}
+	mIMUInstance->calibrate();
 
 	return true;
 }
@@ -39,12 +40,12 @@ void readRawDataIMUTask::processTask()
 
 void readRawDataIMUTask::readData(void)
 {
-	mIMUInstance->getRawData(&_IMU_raw_data);
+	mIMUInstance->getScaleData(&_IMU_data);
 }
 
 void readRawDataIMUTask::sendData()
 {
-	xQueueSend(queueIMUToEKF, &_IMU_raw_data, 10);
-	xQueueSend(queueIMUToMemory, &_IMU_raw_data, 10);
+	xQueueSend(queueIMUToEKF, &_IMU_data, 10);
+	xQueueSend(queueIMUToMemory, &_IMU_data, 10);
 }
 

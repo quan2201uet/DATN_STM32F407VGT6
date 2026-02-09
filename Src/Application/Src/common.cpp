@@ -70,8 +70,8 @@ void initTask()
 	queueGPSToEKF = xQueueCreate(10, sizeof(GPS_data_t));
 	queueGPSToMemory = xQueueCreate(10, sizeof(GPS_data_t));
 
-	queueIMUToEKF = xQueueCreate(10, sizeof(IMU_raw_data_t));
-	queueIMUToMemory = xQueueCreate(10, sizeof(IMU_raw_data_t));
+	queueIMUToEKF = xQueueCreate(10, sizeof(IMU_data_t));
+	queueIMUToMemory = xQueueCreate(10, sizeof(IMU_data_t));
 
 	queueMagToMemory = xQueueCreate(10, sizeof(Mag_raw_t));
 	queueMagToEKF = xQueueCreate(10, sizeof(Mag_raw_t));

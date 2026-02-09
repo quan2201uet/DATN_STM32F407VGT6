@@ -2,6 +2,8 @@
 ../Src/Module/Device_driver/MPU/mpu6050.cpp:361:1:MPU6050::~MPU6050()	16	static
 ../Src/Module/Device_driver/MPU/mpu6050.cpp:365:6:void MPU6050::setDivideNumber(ACCEL_DIVIDE_MODE, GYRO_DIVIDE_MODE)	16	static
 ../Src/Module/Device_driver/MPU/mpu6050.cpp:371:6:bool MPU6050::initDevice()	40	static
-../Src/Module/Device_driver/MPU/mpu6050.cpp:404:6:void MPU6050::getRawData(IMU_raw_data_t*)	64	static
-../Src/Module/Device_driver/MPU/mpu6050.cpp:426:6:void MPU6050::setAccelDivideMode(ACCEL_DIVIDE_MODE)	16	static
-../Src/Module/Device_driver/MPU/mpu6050.cpp:461:6:void MPU6050::setGyroDivideMode(GYRO_DIVIDE_MODE)	16	static
+../Src/Module/Device_driver/MPU/mpu6050.cpp:404:6:void MPU6050::calibrate()	64	static
+../Src/Module/Device_driver/MPU/mpu6050.cpp:439:6:void MPU6050::getRawData(IMU_raw_data_t*)	64	static
+../Src/Module/Device_driver/MPU/mpu6050.cpp:462:6:void MPU6050::getScaleData(IMU_data_t*)	64	static
+../Src/Module/Device_driver/MPU/mpu6050.cpp:490:6:void MPU6050::setAccelDivideMode(ACCEL_DIVIDE_MODE)	16	static
+../Src/Module/Device_driver/MPU/mpu6050.cpp:525:6:void MPU6050::setGyroDivideMode(GYRO_DIVIDE_MODE)	16	static

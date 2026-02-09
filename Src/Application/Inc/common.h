@@ -117,7 +117,18 @@ typedef struct
 	int16_t mx_raw;
 	int16_t my_raw;
 	int16_t mz_raw;
+} Mag_raw_t;
 
+typedef struct {
+
+	int16_t min[3];
+	int16_t max[3];
+	float offset[3];
+	float scale[3];
+} mag_calib_param_t;
+
+typedef struct
+{
 	int16_t mx_offset;
 	int16_t my_offset;
 	int16_t mz_offset;
@@ -127,7 +138,8 @@ typedef struct
 
 	int16_t qmc_calib[6];
 
-} Mag_raw_t;
+} Mag_t;
+
 //imu
 typedef struct{
 	float ax;
@@ -139,6 +151,24 @@ typedef struct{
 	float gz;
 
 } IMU_raw_data_t;
+
+typedef struct{
+	float ax;
+	float ay;
+	float az;
+	float temp;
+	float gx;
+	float gy;
+	float gz;
+
+} IMU_data_t;
+
+typedef struct
+{
+	int16_t gx_cal;
+	int16_t gy_cal;
+	int16_t gz_cal;
+}Gyro_cal_t;
 
 
 // GPGGA
@@ -155,26 +185,6 @@ typedef struct
 	uint8_t fixQuality;  // loại fix
 	uint8_t numSatellites;
 } GPGGA_Data_t;
-
-
-
-// qmc5883l raw data
-typedef struct
-{
-	int16_t mx_raw;
-	int16_t my_raw;
-	int16_t mz_raw;
-
-	int16_t mx_offset;
-	int16_t my_offset;
-	int16_t mz_offset;
-
-	float my_scale;
-	float mz_scale;
-
-	int16_t qmc_calib[6];
-
-} qmc5883l_raw_t;
 
 // ekf out
 typedef struct

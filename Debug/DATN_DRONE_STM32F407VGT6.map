@@ -5914,17 +5914,17 @@ Discarded input sections
  .text._ZN18readRawDataIMUTaskC2EP7MPU6050
                 0x00000000       0x1e ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask4initEv
-                0x00000000       0x30 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x3a ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask9startTaskEv
                 0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask11processTaskEv
-                0x00000000       0x38 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x40 ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask8readDataEv
                 0x00000000       0x1e ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask8sendDataEv
-                0x00000000       0x24 ./Src/Application/Src/readIMUTask.o
- .debug_info    0x00000000     0x1b36 ./Src/Application/Src/readIMUTask.o
- .debug_abbrev  0x00000000      0x373 ./Src/Application/Src/readIMUTask.o
+                0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
+ .debug_info    0x00000000     0x1c46 ./Src/Application/Src/readIMUTask.o
+ .debug_abbrev  0x00000000      0x374 ./Src/Application/Src/readIMUTask.o
  .debug_aranges
                 0x00000000       0x48 ./Src/Application/Src/readIMUTask.o
  .debug_rnglists
@@ -6016,8 +6016,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x29 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readIMUTask.o
- .debug_line    0x00000000     0x1086 ./Src/Application/Src/readIMUTask.o
- .debug_str     0x00000000    0xd6a4f ./Src/Application/Src/readIMUTask.o
+ .debug_line    0x00000000     0x108e ./Src/Application/Src/readIMUTask.o
+ .debug_str     0x00000000    0xd6b13 ./Src/Application/Src/readIMUTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readIMUTask.o
  .debug_frame   0x00000000       0xe8 ./Src/Application/Src/readIMUTask.o
  .ARM.attributes
@@ -7272,18 +7272,22 @@ Discarded input sections
                 0x00000000       0x2c ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605010initDeviceEv
                 0x00000000       0xf4 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .text._ZN7MPU60509calibrateEv
+                0x00000000      0x124 ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605010getRawDataEP14IMU_raw_data_t
                 0x00000000      0x154 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .text._ZN7MPU605012getScaleDataEP10IMU_data_t
+                0x00000000      0x1b0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605018setAccelDivideModeENS_17ACCEL_DIVIDE_MODEE
                 0x00000000       0xc0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .text._ZN7MPU605017setGyroDivideModeENS_16GYRO_DIVIDE_MODEE
                 0x00000000       0xc8 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_info    0x00000000     0x3063 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_abbrev  0x00000000      0x420 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_info    0x00000000     0x32f4 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_abbrev  0x00000000      0x43b ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_aranges
-                0x00000000       0x50 ./Src/Module/Device_driver/MPU/mpu6050.o
+                0x00000000       0x60 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_rnglists
-                0x00000000       0x3b ./Src/Module/Device_driver/MPU/mpu6050.o
+                0x00000000       0x49 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0x464 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0xbb0 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x1c ./Src/Module/Device_driver/MPU/mpu6050.o
@@ -7371,10 +7375,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x29 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/MPU/mpu6050.o
  .debug_macro   0x00000000      0x3c7 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_line    0x00000000     0x118c ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_str     0x00000000    0xd8997 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_line    0x00000000     0x131a ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_str     0x00000000    0xd8abc ./Src/Module/Device_driver/MPU/mpu6050.o
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/MPU/mpu6050.o
- .debug_frame   0x00000000      0x124 ./Src/Module/Device_driver/MPU/mpu6050.o
+ .debug_frame   0x00000000      0x174 ./Src/Module/Device_driver/MPU/mpu6050.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Module/Device_driver/MPU/mpu6050.o
  .group         0x00000000        0xc ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
@@ -7495,21 +7499,19 @@ Discarded input sections
  .rodata._ZL15QMC5883L_ID_REG
                 0x00000000        0x1 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .text._ZN8qmc5883lC2EP11I2CAbstract
-                0x00000000       0x26 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+                0x00000000       0x1e ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .text._ZN8qmc5883lD2Ev
                 0x00000000       0x16 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .text._ZN8qmc5883l4initEv
                 0x00000000       0xaa ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .text._ZN8qmc5883l9calibrateEPt
-                0x00000000       0x18 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .text._ZN8qmc5883l11readRawDataEPt
-                0x00000000       0x96 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_info    0x00000000     0x1b52 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_abbrev  0x00000000      0x3c7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .text._ZN8qmc5883l11readRawDataEP9Mag_raw_t
+                0x00000000       0x92 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_info    0x00000000     0x1b4d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_abbrev  0x00000000      0x3a2 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_aranges
-                0x00000000       0x40 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+                0x00000000       0x38 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_rnglists
-                0x00000000       0x2d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+                0x00000000       0x27 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0x464 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0xbb0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0x2a7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
@@ -7597,10 +7599,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x29 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000       0x10 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .debug_macro   0x00000000      0x3c7 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_line    0x00000000     0x10bd ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_str     0x00000000    0xd6a34 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_line    0x00000000     0x108d ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_str     0x00000000    0xd6a44 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .comment       0x00000000       0x44 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
- .debug_frame   0x00000000       0xd8 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
+ .debug_frame   0x00000000       0xb0 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Module/Device_driver/Magnetometer/qmc5883l.o
  .text          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_ops.o)

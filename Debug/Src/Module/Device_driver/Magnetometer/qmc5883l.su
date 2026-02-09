@@ -1,5 +1,4 @@
 ../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp:18:1:qmc5883l::qmc5883l(I2CAbstract*)	16	static
 ../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp:23:1:qmc5883l::~qmc5883l()	16	static
 ../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp:25:6:bool qmc5883l::init()	40	static
-../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp:42:6:bool qmc5883l::calibrate(uint16_t*)	16	static
-../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp:60:6:bool qmc5883l::readRawData(uint16_t*)	40	static
+../Src/Module/Device_driver/Magnetometer/qmc5883l.cpp:43:6:bool qmc5883l::readRawData(Mag_raw_t*)	40	static
