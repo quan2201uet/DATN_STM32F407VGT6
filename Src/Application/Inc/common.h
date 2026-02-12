@@ -16,6 +16,10 @@
 #include <math.h>
 /* USER CODE END Includes */
 
+/* USER CODE HEADER FUNTION BEGIN */
+void initQueuesAndSemaphores(void);
+/* USER CODE HEADER FUNTION END */
+
 /* USING QUEUESET BEGIN*/
 extern QueueSetHandle_t EKFTaskQueueSet;
 extern QueueSetHandle_t memoryTaskQueueSet;
@@ -234,8 +238,6 @@ typedef struct
 
 
 /* USER CODE BEGIN Function */
-
-void initQueuesAndSemaphores(void);
 
 
 

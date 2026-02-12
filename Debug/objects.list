@@ -1,3 +1,4 @@
+"./Board/STM32F407VGT6/initTask/app_main.o"
 "./Core/Src/freertos.o"
 "./Core/Src/gpio.o"
 "./Core/Src/i2c.o"

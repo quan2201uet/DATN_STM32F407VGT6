@@ -149,6 +149,5 @@ void initQueuesAndSemaphores()
 	xQueueAddToSet(queueISRRCToFL, FLTaskQueueSet);
 	/* ADD SEMAPHORE AND QUEUE INTO FL QUEUE SET END */
 }
-
 /* USING FUNCTION END*/
 

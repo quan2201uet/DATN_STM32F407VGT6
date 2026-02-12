@@ -1,1 +1,1 @@
-../Src/Application/Src/common.cpp:66:6:void initTask()	8	static
+../Src/Application/Src/common.cpp:66:6:void initQueuesAndSemaphores()	8	static

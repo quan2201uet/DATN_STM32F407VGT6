@@ -1,13 +1,13 @@
 
 #include "readIMUTask.h"
 
-readRawDataIMUTask::readRawDataIMUTask(MPU6050* newIMU)
+readIMUTask::readIMUTask(MPU6050* newIMU)
 {
 	mIMUInstance = newIMU;
 }
 
 
-bool readRawDataIMUTask :: init(void)
+bool readIMUTask :: init(void)
 {
 
 	if(mIMUInstance->initDevice() != true)
@@ -19,7 +19,7 @@ bool readRawDataIMUTask :: init(void)
 	return true;
 }
 
-void readRawDataIMUTask::startTask ()
+void readIMUTask::startTask ()
 {
 	for(;;)
 	{
@@ -28,7 +28,7 @@ void readRawDataIMUTask::startTask ()
 }
 
 
-void readRawDataIMUTask::processTask()
+void readIMUTask::processTask()
 {
 	if(xSemaphoreTake(semaReadIMUTask,portMAX_DELAY) == pdTRUE)
 	{
@@ -38,12 +38,12 @@ void readRawDataIMUTask::processTask()
 }
 
 
-void readRawDataIMUTask::readData(void)
+void readIMUTask::readData(void)
 {
 	mIMUInstance->getScaleData(&_IMU_data);
 }
 
-void readRawDataIMUTask::sendData()
+void readIMUTask::sendData()
 {
 	xQueueSend(queueIMUToEKF, &_IMU_data, 10);
 	xQueueSend(queueIMUToMemory, &_IMU_data, 10);

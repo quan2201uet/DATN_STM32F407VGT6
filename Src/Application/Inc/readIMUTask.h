@@ -5,7 +5,7 @@
 #include "mpu6050.h"
 
 
-class readRawDataIMUTask
+class readIMUTask
 {
 private:
 	IMU_data_t _IMU_data;
@@ -14,8 +14,8 @@ private:
 	void processTask();
 	MPU6050* mIMUInstance;
 public:
-	readRawDataIMUTask(MPU6050* newIMU);
-	~readRawDataIMUTask();
+	readIMUTask(MPU6050* newIMU);
+	~readIMUTask();
 
 	bool init(void);
 	void startTask();
