@@ -5,7 +5,9 @@ readIMUTask::readIMUTask(MPU6050* newIMU)
 {
 	mIMUInstance = newIMU;
 }
-
+readIMUTask::~readIMUTask()
+{
+}
 
 bool readIMUTask :: init(void)
 {

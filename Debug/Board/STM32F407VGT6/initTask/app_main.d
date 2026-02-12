@@ -33,8 +33,6 @@ Board/STM32F407VGT6/initTask/app_main.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- E:/ProjectDATN/Src/Module/Device_driver/Magnetometer/qmc5883l.h \
- E:/ProjectDATN/Src/Application/Inc/common.h ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -42,6 +40,7 @@ Board/STM32F407VGT6/initTask/app_main.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ E:/ProjectDATN/Src/Application/Inc/common.h ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
@@ -51,11 +50,15 @@ Board/STM32F407VGT6/initTask/app_main.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ E:/ProjectDATN/Src/Module/Device_driver/Magnetometer/qmc5883l.h \
  E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h \
  E:/ProjectDATN/Src/Module/Device_driver/MPU/mpu6050.h \
  E:/ProjectDATN/Src/Application/Inc/readIMUTask.h \
  E:/ProjectDATN/Src/Application/Inc/common.h \
- E:/ProjectDATN/Src/Application/Inc/readMagTask.h
+ E:/ProjectDATN/Src/Application/Inc/readMagTask.h \
+ E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/uartSTM32.h \
+ E:/ProjectDATN/Src/Driver/DriverAbstract/uartAbstract.h \
+ E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/I2CSTM32.h
 ../Board/STM32F407VGT6/initTask/app_main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -89,9 +92,6 @@ Board/STM32F407VGT6/initTask/app_main.o: \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
-E:/ProjectDATN/Src/Module/Device_driver/Magnetometer/qmc5883l.h:
-E:/ProjectDATN/Src/Application/Inc/common.h:
-../Core/Inc/main.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -99,6 +99,8 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+E:/ProjectDATN/Src/Application/Inc/common.h:
+../Core/Inc/main.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
@@ -108,8 +110,12 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+E:/ProjectDATN/Src/Module/Device_driver/Magnetometer/qmc5883l.h:
 E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:
 E:/ProjectDATN/Src/Module/Device_driver/MPU/mpu6050.h:
 E:/ProjectDATN/Src/Application/Inc/readIMUTask.h:
 E:/ProjectDATN/Src/Application/Inc/common.h:
 E:/ProjectDATN/Src/Application/Inc/readMagTask.h:
+E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/uartSTM32.h:
+E:/ProjectDATN/Src/Driver/DriverAbstract/uartAbstract.h:
+E:/ProjectDATN/Src/Driver/DriverSTM32/Inc/I2CSTM32.h:

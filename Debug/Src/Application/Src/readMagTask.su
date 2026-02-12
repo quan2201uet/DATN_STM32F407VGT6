@@ -2,12 +2,12 @@
 ../Src/Application/Src/readMagTask.cpp:17:1:readMagTask::~readMagTask()	16	static
 ../Src/Application/Src/readMagTask.cpp:21:6:bool readMagTask::init()	16	static
 ../Src/Application/Src/readMagTask.cpp:30:6:void readMagTask::startTask()	16	static
-../Src/Application/Src/readMagTask.cpp:39:6:void readMagTask::processTask()	40	static
-../Src/Application/Src/readMagTask.cpp:51:6:void readMagTask::applyCalib(const Mag_raw_t*, Mag_data_t*)	40	static
-../Src/Application/Src/readMagTask.cpp:74:6:void readMagTask::sendDataToEKF(const Mag_data_t*)	16	static
-../Src/Application/Src/readMagTask.cpp:79:6:bool readMagTask::readRaw(Mag_raw_t*)	16	static
-../Src/Application/Src/readMagTask.cpp:84:6:void readMagTask::calibrate()	64	static
-../Src/Application/Src/readMagTask.cpp:129:6:bool readMagTask::saveCalib()	64	static
-../Src/Application/Src/readMagTask.cpp:171:6:bool readMagTask::loadCalib()	24	static
+../Src/Application/Src/readMagTask.cpp:38:6:void readMagTask::processTask()	40	static
+../Src/Application/Src/readMagTask.cpp:53:6:void readMagTask::applyCalib(const Mag_raw_t*, Mag_data_t*)	40	static
+../Src/Application/Src/readMagTask.cpp:76:6:void readMagTask::sendDataToEKF(const Mag_data_t*)	16	static
+../Src/Application/Src/readMagTask.cpp:81:6:bool readMagTask::readRaw(Mag_raw_t*)	16	static
+../Src/Application/Src/readMagTask.cpp:86:6:void readMagTask::calibrate()	64	static
+../Src/Application/Src/readMagTask.cpp:131:6:bool readMagTask::saveCalib()	64	static
+../Src/Application/Src/readMagTask.cpp:173:6:bool readMagTask::loadCalib()	24	static
 C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/stl_algobase.h:233:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = short int]	16	static
 C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/bits/stl_algobase.h:257:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = short int]	16	static

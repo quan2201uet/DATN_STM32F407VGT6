@@ -31,20 +31,22 @@ void readMagTask::startTask()
 {
 	for(;;)
 	{
-		xSemaphoreTake(semaReadMagTask, portMAX_DELAY);
 		processTask();
 	}
 }
 
 void readMagTask::processTask()
 {
-	Mag_raw_t rawdata;
-	Mag_data_t dataOut;
-
-	if(readRaw(&rawdata))
+	if(xSemaphoreTake(semaReadMagTask, portMAX_DELAY) == pdTRUE)
 	{
-		applyCalib(&rawdata, &dataOut);
-		sendDataToEKF(&dataOut);
+		Mag_raw_t rawdata;
+		Mag_data_t dataOut;
+
+		if(readRaw(&rawdata))
+		{
+			applyCalib(&rawdata, &dataOut);
+			sendDataToEKF(&dataOut);
+		}
 	}
 }
 
