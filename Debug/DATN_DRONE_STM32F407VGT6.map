@@ -4,6 +4,10 @@ C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.external
                               ./Src/Driver/DriverSTM32/Src/I2CSTM32.o (operator delete(void*, unsigned int))
 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_op.o)
                               C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_ops.o) (operator delete(void*))
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+                              ./Src/Application/Src/readMagTask.o (sqrtf)
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
+                              C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o) (__ieee754_sqrtf)
 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
                               C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
@@ -5923,7 +5927,7 @@ Discarded input sections
                 0x00000000       0x1e ./Src/Application/Src/readIMUTask.o
  .text._ZN18readRawDataIMUTask8sendDataEv
                 0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
- .debug_info    0x00000000     0x1c46 ./Src/Application/Src/readIMUTask.o
+ .debug_info    0x00000000     0x1c69 ./Src/Application/Src/readIMUTask.o
  .debug_abbrev  0x00000000      0x374 ./Src/Application/Src/readIMUTask.o
  .debug_aranges
                 0x00000000       0x48 ./Src/Application/Src/readIMUTask.o
@@ -6017,24 +6021,274 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Src/Application/Src/readIMUTask.o
  .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readIMUTask.o
  .debug_line    0x00000000     0x108e ./Src/Application/Src/readIMUTask.o
- .debug_str     0x00000000    0xd6b13 ./Src/Application/Src/readIMUTask.o
+ .debug_str     0x00000000    0xd6b43 ./Src/Application/Src/readIMUTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readIMUTask.o
  .debug_frame   0x00000000       0xe8 ./Src/Application/Src/readIMUTask.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/readIMUTask.o
+ .group         0x00000000        0x8 ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0x8 ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
+ .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readMagTask.o
  .text          0x00000000        0x0 ./Src/Application/Src/readMagTask.o
  .data          0x00000000        0x0 ./Src/Application/Src/readMagTask.o
  .bss           0x00000000        0x0 ./Src/Application/Src/readMagTask.o
- .debug_info    0x00000000       0x22 ./Src/Application/Src/readMagTask.o
- .debug_abbrev  0x00000000       0x12 ./Src/Application/Src/readMagTask.o
+ .rodata._ZStL19piecewise_construct
+                0x00000000        0x1 ./Src/Application/Src/readMagTask.o
+ .rodata._ZL9MIN_RANGE
+                0x00000000        0x4 ./Src/Application/Src/readMagTask.o
+ .rodata._ZL15MAG_CALIB_MAGIC
+                0x00000000        0x4 ./Src/Application/Src/readMagTask.o
+ .rodata._ZL10FLASH_ADDR
+                0x00000000        0x4 ./Src/Application/Src/readMagTask.o
+ .rodata._ZL12FLASH_SECTOR
+                0x00000000        0x4 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTaskC2EP8qmc5883l
+                0x00000000       0x1e ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTaskD2Ev
+                0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask4initEv
+                0x00000000       0x44 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask9startTaskEv
+                0x00000000       0x24 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask11processTaskEv
+                0x00000000       0x3e ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask10applyCalibEPK9Mag_raw_tP10Mag_data_t
+                0x00000000      0x118 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask13sendDataToEKFEPK10Mag_data_t
+                0x00000000       0x28 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask7readRawEP9Mag_raw_t
+                0x00000000       0x20 ./Src/Application/Src/readMagTask.o
+ .rodata        0x00000000        0xe ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask9calibrateEv
+                0x00000000      0x294 ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask9saveCalibEv
+                0x00000000       0xcc ./Src/Application/Src/readMagTask.o
+ .text._ZN11readMagTask9loadCalibEv
+                0x00000000       0x3c ./Src/Application/Src/readMagTask.o
+ .text._ZSt3minIsERKT_S2_S2_
+                0x00000000       0x2c ./Src/Application/Src/readMagTask.o
+ .text._ZSt3maxIsERKT_S2_S2_
+                0x00000000       0x2c ./Src/Application/Src/readMagTask.o
+ .debug_info    0x00000000     0x289d ./Src/Application/Src/readMagTask.o
+ .debug_abbrev  0x00000000      0x569 ./Src/Application/Src/readMagTask.o
  .debug_aranges
-                0x00000000       0x18 ./Src/Application/Src/readMagTask.o
- .debug_macro   0x00000000       0x11 ./Src/Application/Src/readMagTask.o
+                0x00000000       0x80 ./Src/Application/Src/readMagTask.o
+ .debug_rnglists
+                0x00000000       0x5e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x60a ./Src/Application/Src/readMagTask.o
  .debug_macro   0x00000000      0xbb0 ./Src/Application/Src/readMagTask.o
- .debug_line    0x00000000       0x47 ./Src/Application/Src/readMagTask.o
- .debug_str     0x00000000     0x3283 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x2a7 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x2e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x2f ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x22 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x51 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x103 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x6a ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x1df ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x22 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xfb ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000     0x1011 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x11f ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000    0x15ea5 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x6d ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000     0x3693 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x197 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x5c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x980 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x9e9 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x115 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x13e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xa5 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x174 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x287 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x5f ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x236 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x12c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x21e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x2e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x1b5 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xd6 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x127 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x7e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x89 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x868 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x1d5 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x8ed ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x4d ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x2aa ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x12d ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xf1 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x15a ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xde ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x26 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x4fd ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xb5 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xaa ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x91 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x8d ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x7e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x19 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x61 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x2a ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x43 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x34 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x3c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x38c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x4a ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x34 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x58 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x185 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x138 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x1f2 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x409 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x18 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x194 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x29 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x10 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000      0x3c7 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x16 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x20 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x8e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x4f ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x41 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x1f ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x18 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x27 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x28 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x2e ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x19 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x88 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x19 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xf0 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x7c ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x17 ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0xee ./Src/Application/Src/readMagTask.o
+ .debug_macro   0x00000000       0x1c ./Src/Application/Src/readMagTask.o
+ .debug_line    0x00000000     0x1764 ./Src/Application/Src/readMagTask.o
+ .debug_str     0x00000000    0xd8527 ./Src/Application/Src/readMagTask.o
  .comment       0x00000000       0x44 ./Src/Application/Src/readMagTask.o
+ .debug_frame   0x00000000      0x1f8 ./Src/Application/Src/readMagTask.o
  .ARM.attributes
                 0x00000000       0x34 ./Src/Application/Src/readMagTask.o
  .group         0x00000000        0xc ./Src/Application/Src/readPressTask.o
@@ -7619,6 +7873,21 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_op.o)
  .ARM.attributes
                 0x00000000       0x34 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a(del_op.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .text.sqrtf    0x00000000       0x3c C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .debug_frame   0x00000000       0x38 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-wf_sqrt.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
+ .text.__ieee754_sqrtf
+                0x00000000        0x6 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
+ .debug_frame   0x00000000       0x20 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a(libm_a-ef_sqrt.o)
  .text          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
  .data          0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
  .bss           0x00000000        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)

@@ -55,6 +55,10 @@ extern QueueHandle_t queueISRRCToFL; // có thể xem xét thay bằng stream
 extern QueueHandle_t queueFLToPID;
 /* USER CODE END initial queue */
 
+/* DEFINE TYPEDEF BEGIN*/
+typedef uint32_t time_ms_t;
+/* DEFINE TYPEDEF END*/
+
 /* USER CODE BEGIN initial semaphore */
 extern SemaphoreHandle_t semaReadGPSIMUTask;
 extern SemaphoreHandle_t semaReadIMUTask;
@@ -119,26 +123,27 @@ typedef struct
 	int16_t mz_raw;
 } Mag_raw_t;
 
-typedef struct {
+typedef struct
+{
+    float offset_x;
+    float offset_y;
+    float offset_z;
 
-	int16_t min[3];
-	int16_t max[3];
-	float offset[3];
-	float scale[3];
-} mag_calib_param_t;
+    float scale_x;
+    float scale_y;
+    float scale_z;
+
+    uint32_t magic;
+} Mag_calib_t;
 
 typedef struct
 {
-	int16_t mx_offset;
-	int16_t my_offset;
-	int16_t mz_offset;
+    float mx;
+    float my;
+    float mz;
 
-	float my_scale;
-	float mz_scale;
-
-	int16_t qmc_calib[6];
-
-} Mag_t;
+    uint32_t timestamp_us;
+} Mag_data_t;
 
 //imu
 typedef struct{

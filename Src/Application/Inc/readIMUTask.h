@@ -15,6 +15,7 @@ private:
 	MPU6050* mIMUInstance;
 public:
 	readRawDataIMUTask(MPU6050* newIMU);
+	~readRawDataIMUTask();
 
 	bool init(void);
 	void startTask();
