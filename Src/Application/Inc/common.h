@@ -235,7 +235,9 @@ typedef struct
 
 /* USER CODE BEGIN Function */
 
-void initTask(void);
+void initQueuesAndSemaphores(void);
+
+
 
 
 

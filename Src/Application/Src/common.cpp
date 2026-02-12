@@ -63,7 +63,7 @@ QueueHandle_t queueFLToPID;
 /* USING QUEUE END*/
 
 /* USING FUNCTION BEGIN*/
-void initTask()
+void initQueuesAndSemaphores()
 {
 	/* CREATE QUEUE BEGIN*/
 
