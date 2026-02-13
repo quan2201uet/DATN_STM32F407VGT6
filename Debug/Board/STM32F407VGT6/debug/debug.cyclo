@@ -1,0 +1,5 @@
+../Board/STM32F407VGT6/debug/debug.cpp:8:8:static Debug& Debug::instance()	1
+../Board/STM32F407VGT6/debug/debug.cpp:14:6:void Debug::print(const char*)	1
+../Board/STM32F407VGT6/debug/debug.cpp:19:6:)	1
+../Board/STM32F407VGT6/debug/debug.cpp:33:6:void print(const char*)	1
+../Board/STM32F407VGT6/debug/debug.cpp:38:6:)	1

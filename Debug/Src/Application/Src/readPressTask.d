@@ -49,7 +49,8 @@ Src/Application/Src/readPressTask.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ E:/ProjectDATN/Board/STM32F407VGT6/debug/debug.h
 E:/ProjectDATN/Src/Application/Inc/readPressTask.h:
 E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Core/Inc/main.h:
@@ -101,3 +102,4 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+E:/ProjectDATN/Board/STM32F407VGT6/debug/debug.h:

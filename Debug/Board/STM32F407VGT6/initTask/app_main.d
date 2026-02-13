@@ -50,6 +50,7 @@ Board/STM32F407VGT6/initTask/app_main.o: \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ E:/ProjectDATN/Board/STM32F407VGT6/debug/debug.h \
  E:/ProjectDATN/Src/Module/Device_driver/Magnetometer/qmc5883l.h \
  E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h \
  E:/ProjectDATN/Src/Module/Device_driver/MPU/mpu6050.h \
@@ -110,6 +111,7 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+E:/ProjectDATN/Board/STM32F407VGT6/debug/debug.h:
 E:/ProjectDATN/Src/Module/Device_driver/Magnetometer/qmc5883l.h:
 E:/ProjectDATN/Src/Driver/DriverAbstract/I2CAbstract.h:
 E:/ProjectDATN/Src/Module/Device_driver/MPU/mpu6050.h:

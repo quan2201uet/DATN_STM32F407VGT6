@@ -47,7 +47,8 @@ Src/Application/Src/common.o: ../Src/Application/Src/common.cpp \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ E:/ProjectDATN/Board/STM32F407VGT6/debug/debug.h
 E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -98,3 +99,4 @@ E:/ProjectDATN/Src/Application/Inc/common.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+E:/ProjectDATN/Board/STM32F407VGT6/debug/debug.h:

@@ -13,6 +13,8 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <math.h>
+
+#include "debug.h"
 /* USER CODE END Includes */
 
 /* USER CODE HEADER FUNTION BEGIN */

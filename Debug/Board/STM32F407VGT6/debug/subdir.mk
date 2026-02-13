@@ -5,23 +5,23 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../Src/Include/common/common.cpp 
+../Board/STM32F407VGT6/debug/debug.cpp 
 
 OBJS += \
-./Src/Include/common/common.o 
+./Board/STM32F407VGT6/debug/debug.o 
 
 CPP_DEPS += \
-./Src/Include/common/common.d 
+./Board/STM32F407VGT6/debug/debug.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Src/Include/common/%.o Src/Include/common/%.su Src/Include/common/%.cyclo: ../Src/Include/common/%.cpp Src/Include/common/subdir.mk
+Board/STM32F407VGT6/debug/%.o Board/STM32F407VGT6/debug/%.su Board/STM32F407VGT6/debug/%.cyclo: ../Board/STM32F407VGT6/debug/%.cpp Board/STM32F407VGT6/debug/subdir.mk
 	arm-none-eabi-g++ "$<" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"E:/ProjectDATN/Board/STM32F407VGT6/debug" -I"E:/ProjectDATN/Board/STM32F407VGT6/initTask" -I"E:/ProjectDATN/Src/Module/Device_driver/Magnetometer" -I"E:/ProjectDATN/Src/Module/Device_driver/MPU" -I"E:/ProjectDATN/Src/Application/Inc" -I"E:/ProjectDATN/Src/Application" -I"E:/ProjectDATN/Src/Include/common" -I"E:/ProjectDATN/Src/Driver/DriverAbstract" -I"E:/ProjectDATN/Src/Driver/DriverSTM32/Inc" -I"E:/ProjectDATN/Src/Driver/DriverSTM32" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
-clean: clean-Src-2f-Include-2f-common
+clean: clean-Board-2f-STM32F407VGT6-2f-debug
 
-clean-Src-2f-Include-2f-common:
-	-$(RM) ./Src/Include/common/common.cyclo ./Src/Include/common/common.d ./Src/Include/common/common.o ./Src/Include/common/common.su
+clean-Board-2f-STM32F407VGT6-2f-debug:
+	-$(RM) ./Board/STM32F407VGT6/debug/debug.cyclo ./Board/STM32F407VGT6/debug/debug.d ./Board/STM32F407VGT6/debug/debug.o ./Board/STM32F407VGT6/debug/debug.su
 
-.PHONY: clean-Src-2f-Include-2f-common
+.PHONY: clean-Board-2f-STM32F407VGT6-2f-debug
 
