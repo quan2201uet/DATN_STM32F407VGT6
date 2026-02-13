@@ -4,7 +4,6 @@
 #include "common.h"
 #include "mpu6050.h"
 
-
 class readIMUTask
 {
 private:
